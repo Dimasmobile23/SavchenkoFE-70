@@ -1,0 +1,33 @@
+// mixins
+
+.heading1(@hColor: #323232, @hSize: 36px,
+@hAlign: center, @hStyle: normal, @hWeight: 500, @hLineHeight: 53px) {
+    color: @hColor;
+    font-size: @hSize;
+    text-align: @hAlign;
+    font-style: @hStyle;
+    font-weight: @hWeight;
+    line-height: @hLineHeight;
+  }
+
+  .button(@bBackColor: #4985FF, @bShadow: 0px 0px 10px rgba(111, 111, 111, 0.25),
+  @bRadius: 30px, @bWidth: 200px, @bHeight: 45px, @bColor: #fff, @bDecoration: none){
+      background: @bBackColor;
+      box-shadow: @bShadow;
+      border-radius: @bRadius;
+      width: @bWidth;
+      height: @bHeight;
+      color: @bColor;
+      text-decoration: @bDecoration;
+  }
+
+  .paragraph(@pColor: #999999, @pSize: 16px, @pAlign: center, 
+    @pStyle: normal, @pWeight: 400, @pHeight: 25px) {
+    color: @pColor;
+    font-size: @pSize;
+    text-align: @pAlign;
+    font-style: @pStyle;
+    font-weight: @pWeight;
+    line-height: @pHeight;
+  }
+// mixins
